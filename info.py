@@ -20,9 +20,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7347179037:AAEyTgCeqoFxkfzCG22tPPX_NyJBAce
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6295345515').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/RexonBlood") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002372684889'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/deshi_dhaba')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002236750002').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tmr624062:ur45uHg5Q0ggZSKl@cluster0.ilv62.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
