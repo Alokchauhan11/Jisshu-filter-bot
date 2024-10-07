@@ -30,7 +30,16 @@ async def get_file_ids(client: Client, chat_id: int, id: int) -> Optional[FileId
     return file_id
 
 def get_media_from_message(message: "Message") -> Any:
-    media_types = (
+    """
+    Extracts media from a given message.
+
+    Args:
+        message (Message): The message object from which to extract media.
+
+    Returns:
+        Any: The media object if found; otherwise, None.
+    """
+    media_types = [
         "audio",
         "document",
         "photo",
@@ -39,12 +48,14 @@ def get_media_from_message(message: "Message") -> Any:
         "video",
         "voice",
         "video_note",
-    )
-    for attr in media_types:
-        media = getattr(message, attr, None)
+    ]
+
+    for media_type in media_types:
+        media = getattr(message, media_type, None)
         if media:
             return media
-
+            
+    return None  # Explicitly return None if no media found
 
 def get_hash(media_msg: Message) -> str:
     media = get_media_from_message(media_msg)
