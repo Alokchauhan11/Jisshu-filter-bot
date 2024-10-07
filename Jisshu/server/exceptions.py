@@ -1,5 +1,9 @@
 class InvalidHash(Exception):
-    message = "Invalid hash"
+    def __init__(self, message="Invalid hash"):
+        self.message = message
+        super().__init__(self.message)
 
-class FIleNotFound(Exception):
-    message = "File not found"
+class FileNotFound(Exception):
+    def __init__(self, message="File not found"):
+        self.message = message
+        super().__init__(self.message)
