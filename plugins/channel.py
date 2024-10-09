@@ -71,7 +71,7 @@ async def send_movie_updates(bot, file_name, caption, file_id):
             return 
         processed_movies.add(movie_name)    
         poster_url = await get_imdb(movie_name)
-        caption_message = f"#New_File_Added ✅\n\nFile_Name:- <code>{movie_name}</code>\n\nLanguage:- {language}\n\nQuality:- {quality}"    
+        caption_message = f"New Video \n\nPost Code:- <code>{movie_name}</code>\nLanguage:- {language}\nQuality:- {quality}\n\n⚠️𝐍𝐎𝐓𝐄: If you're phasing problem to get video then 𝐏𝐚𝐬𝐭𝐞 𝐭𝐡𝐞 𝐌𝐨𝐯𝐢𝐞 𝐂𝐨𝐝𝐞 𝐭𝐨 𝐭𝐡𝐞 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩."    
         movie_update_channel = await db.movies_update_channel_id()    
         btn = [
             [InlineKeyboardButton('Get File', url=f'https://t.me/{temp.U_NAME}?start=pm_mode_file_{ADMINS[0]}_{file_id}')]
@@ -81,7 +81,7 @@ async def send_movie_updates(bot, file_name, caption, file_id):
             await bot.send_photo(movie_update_channel if movie_update_channel else MOVIE_UPDATE_CHANNEL, 
                                  photo=poster_url, caption=caption_message, reply_markup=reply_markup)
         else:
-            no_poster = "https://telegra.ph/file/88d845b4f8a024a71465d.jpg"
+            no_poster = "https://ibb.co/Cbd8SHZ"
             await bot.send_photo(movie_update_channel if movie_update_channel else MOVIE_UPDATE_CHANNEL, 
                                  photo=no_poster, caption=caption_message, reply_markup=reply_markup)  
     except Exception as e:
