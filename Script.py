@@ -114,7 +114,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<code>{file_name}</code>\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/Dailynewswalla」">𝗗𝗮𝗶𝗹𝘆 𝗡𝗲𝘄𝘀 𝗪𝗮𝗹𝗹𝗮</a>"""
+    FILE_CAPTION = """<code>{file_name}</code>\n\n➠ Team @Dailynewswalla>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
