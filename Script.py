@@ -114,7 +114,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<code>{file_name}</code>\n\n➠ Team @Dailynewswalla>"""
+    FILE_CAPTION = """<code>{file_name}</code>\n\n➠ Team @Dailynewswalla"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
@@ -230,7 +230,7 @@ User - {}"""
 <blockquote>🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇ ʙᴇɴɪꜰɪᴛꜱ:</blockquote>
 
 ❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋꜱ
-❏ ɢᴇᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇs   
+❏ ɢᴇᴛ ᴅɪʀᴇᴄᴛ ꜰɪʟᴇs   
 ❏ ᴀᴅ-ꜰʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ 
 ❏ ʜɪɢʜ-sᴘᴇᴇᴅ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ                         
 ❏ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs                           
